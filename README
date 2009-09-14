@@ -1,0 +1,5 @@
+# in ~/.bash_profile
+source ~/.bashrc
+
+# in ~/.bashrc
+source ~/bash_config/bash_configuration

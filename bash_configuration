@@ -1,0 +1,3 @@
+source ~/bash_config/env
+source ~/bash_config/config
+source ~/bash_config/aliases
