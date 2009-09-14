@@ -1,0 +1,18 @@
+# load local shortcuts
+if [ -f ~/bash_config/local_shortcuts ]
+  then
+  . ~/bash_config/local_shortcuts
+fi
+
+# general shorties
+alias l=ls
+alias ll="ls -al"
+alias cdd="cd -"
+
+# rails cmds
+alias con="script/console"
+alias res="touch tmp/restart.txt"
+alias rmig="rake db:migrate db:test:prepare"
+alias sg="script/generate"
+alias ss="script/server -u"
+

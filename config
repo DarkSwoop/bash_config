@@ -1,0 +1,4 @@
+bash_bin_path=~/bash_config/bin
+
+. $bash_bin_path/cdargs-bash.sh
+. $bash_bin_path/git-completion.sh
