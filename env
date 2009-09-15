@@ -1,16 +1,16 @@
 # Standardeditor
 export EDITOR='mate_wait'
 
-# ImageMagick
-export MAGICK_HOME="/usr/local/ImageMagick-6.5.3"
-export DYLD_LIBRARY_PATH="$MAGICK_HOME/lib"
-
-# MongoDB
-export MONGO_HOME="/usr/local/mongodb-osx-x86_64-1.0.0"
-
-
-# Suchpfade
-export PATH="$MONGO_HOME/bin:$MAGICK_HOME/bin:/usr/local/mysql/bin:/opt/local/lib/postgresql84/bin:$PATH"
+# # ImageMagick
+# export MAGICK_HOME="/usr/local/ImageMagick-6.5.3"
+# export DYLD_LIBRARY_PATH="$MAGICK_HOME/lib"
+# 
+# # MongoDB
+# export MONGO_HOME="/usr/local/mongodb-osx-x86_64-1.0.0"
+# 
+# 
+# # Suchpfade
+# export PATH="$MONGO_HOME/bin:$MAGICK_HOME/bin:/usr/local/mysql/bin:/opt/local/lib/postgresql84/bin:$PATH"
 
 # Bash-Shell-Profil
 PS1='\h:\W \u$(__git_ps1 " [%s]")\$ '
