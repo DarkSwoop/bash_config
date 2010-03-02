@@ -11,6 +11,7 @@ alias cdd="cd -"
 
 # rails cmds
 alias con="script/console"
+alias sc="script/console"
 alias res="touch tmp/restart.txt"
 alias rmig="rake db:migrate db:test:prepare"
 alias sg="script/generate"
